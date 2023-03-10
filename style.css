@@ -3,18 +3,23 @@ body {
     color: #f8f8f2;
     text-align: center;
     margin: 0px;
-   
 }
 
-.container {
+.menu {
     height: 100%;
+    margin: 5px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+    gap: 8px;
 } 
 
-.item {
-    margin: 10px;
+.foto-user {
+    margin-right: auto;
+}
+
+.Logo {
+    height: 100%;
 }
 
 button {
@@ -39,28 +44,29 @@ h1 {
     color: #ff79c6;
     font-size: 35px;
 }
-
 h2 {
     color: #ff79c6;
     font-size: 30px;
 }
 
 #Apresentação {
-    background-color: #353a5e;
+    background-image: url(./Imagens/HP.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 10px 10px 10px 10px;
 }
 
 #Noticias {
     text-align: left;
+    width: 600px;
     margin: 50px;
 }
 
 .noticia {
-
-    min-width: 400px;
-    max-width: 600px;
-    min-height: 200px;
-    max-height: 600px;
+    width: 600px;
+    height: 450px;
     background-color: #353a5e;
     border-radius: 10px;
     padding: 8px 8px 8px 8px;
@@ -71,10 +77,4 @@ h2 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
-}
-
-.item2 {
-    width: 50%;
-    height: 200px;
 }
